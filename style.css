@@ -1,0 +1,83 @@
+.second-item {
+  position: relative;
+  left: 30px;
+}
+.third-item {
+  position: relative;
+  left: 60px;
+}
+.container {
+  display: flex;
+  gap: 7px;
+}
+.box-1 {
+  width: 100px;
+  height: 100px;
+  background-color: lightgray;
+}
+.box-2 {
+  width: 100px;
+  height: 100px;
+  background-color: lightgray;
+  position: relative;
+  top: 30px;
+}
+.box-3 {
+  width: 100px;
+  height: 100px;
+  background-color: lightgray;
+  position: relative;
+  top: 60px;
+}
+.outer-container {
+  width: 300px;
+  height: 300px;
+  background-color: lightgray;
+  position: relative;
+}
+.inner-container {
+  width: 150px;
+  height: 150px;
+  background-color: lightpink;
+  padding: 5px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+.border-container {
+  border: 2px solid black;
+  display: flex;
+  width: min-content;
+}
+.pink-box {
+  width: 100px;
+  height: 50px;
+  background-color: lightpink;
+}
+.gray-box {
+  width: 400px;
+  height: 400px;
+  background-color: lightgray;
+}
+.outer-border{
+    display: flex;
+    border: 2px solid black;
+    gap: 7px;
+    width: min-content;
+
+}
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: lightgray;
+}
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: lightgray;
+}
+.box3{
+    width: 100px;
+    height: 100px;
+    background-color: lightgray;
+}
